@@ -15,6 +15,22 @@ End‑to‑end, reproducible pipeline to ingest raw CSVs, build a consolidated *
 
 ---
 
+##  Dataset
+
+The full dataset exceeds GitHub’s size limit, so it’s hosted externally for easy access.
+
+**Download the complete dataset here (Google Drive):**  
+[Full Dataset (Google Drive)](https://drive.google.com/file/d/1jZ90pS2vJhti0wJ-I0XK9_4zatZ_gbED/view?usp=sharing)
+
+> ℹ Tip: After opening the link, click the "Download" icon at the top right to obtain the files.
+
+A small sample dataset is included in this repository for quick testing and demo:
+- `dataset/sample/sample_purchases.csv`
+- `dataset/sample/sample_sales.csv`
+
+You can run the notebooks/scripts using these smaller files, or replace them with the full dataset once downloaded.
+
+
 ## ✅ Prerequisites
 
 * **Python** 3.10+
@@ -23,23 +39,6 @@ End‑to‑end, reproducible pipeline to ingest raw CSVs, build a consolidated *
 
 ---
 
-## 📦 Installation
-
-```bash
-# 1) Clone the repo
-git clone https://github.com/<your-username>/vendor-performance-analysis.git
-cd vendor-performance-analysis
-
-# 2) Create & activate a virtual environment
-python -m venv .venv
-# Windows
-.venv\Scripts\activate
-# macOS/Linux
-# source .venv/bin/activate
-
-# 3) Install dependencies
-pip install -r requirements.txt
-```
 
 ## 🔐 Configure Environment Variables
 
